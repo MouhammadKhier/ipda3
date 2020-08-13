@@ -1,0 +1,106 @@
+/* navbar */
+.my-navbar .navbar img{
+    height: 70px;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+.my-navbar .navbar-toggler {
+    border: none;
+}
+
+.my-navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(77,180,232, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* second part */
+.background {
+    background-image: url(../imgs/bg30-Ar1web.png);
+    background-size: auto;
+    padding-top: 35px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.background .pargraph h1 {
+    font-family: 'Cairo', sans-serif;
+    border-right: 5px solid #4db4e8;
+    margin-right: 60px;
+    padding-right: 20px;
+    margin-bottom:60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.background .pargraph .container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 45px -20px #000;
+    padding-top: 40px;
+    padding-bottom: 55px;;
+}
+
+.background .pargraph .container img {
+    width: 45%;
+    margin:0 auto;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 45px -20px #000;
+}
+
+.background .pargraph .container p {
+    color: rgb(57, 62, 98);
+    width: 90%;
+    margin: 0 auto;
+    line-height: 50px;;
+    font-size: 20px;;
+}
+
+.footer {
+    background-image: url("../imgs/footer.jpg");
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 130px;
+}
+
+.footer .row .col-md-4 img {
+    width: 55%;
+}
+
+.footer .row .col-md-6 {
+    margin-top: 37px;
+}
+
+.footer .row .col-md-6 img {
+    width: 200px;
+}
+
+.footer .row .col-md-6 p {
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+    margin-top:30px;
+    font-size: 18px;
+}
+
+.footer .row .col-md-6 i {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+@media(max-width: 450px) { 
+    .footer .row .col-md-4 {
+        text-align: center;
+    }
+    
+    .footer .row .col-md-6 {
+        margin-top: 37px;
+        text-align: center;
+    }
+}

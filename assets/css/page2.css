@@ -1,0 +1,131 @@
+/* navbar */
+.my-navbar .navbar img{
+    height: 70px;
+}
+
+.nav-item {
+    text-align: left;
+}
+
+.my-navbar .navbar-toggler {
+    border: none;
+}
+
+.my-navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(77,180,232, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* our work */
+
+
+.our-work {
+    margin-top: 70px;
+}
+
+.our-work .background {
+    background-image: url(../imgs/bg30-Ar1web.png);
+    background-size: auto;
+    padding-top: 35px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.our-work .background .head {
+    font-family: 'Cairo', sans-serif;
+    border-right: 5px solid #4db4e8;
+    margin-right: 60px;
+    padding-right: 20px;
+    margin-bottom:120px;
+}
+
+
+.our-work  .container .card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 45px -20px #000;
+    margin: 0 auto 30px;
+}
+
+.our-work .card img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.our-work  .container .card h5 {
+    padding: 20px 0;
+    color: rgb(100, 110, 122);
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.our-work  .container .row3 {
+    margin-top: 30px;
+}
+
+.our-work  .container .row3 .col-12 {
+    text-align: center;
+}
+
+.our-work .container .row3 a {
+    color: #fff;
+    background-color: rgb(35, 49, 66);
+    padding: 10px 90px;
+    border-radius: 30px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 0px 45px -20px #000;
+}
+
+.our-work .container .row3 a:hover {
+    text-decoration: none;
+}
+
+/* seventh part */
+
+.footer {
+    background-image: url("../imgs/footer.jpg");
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 130px;
+}
+
+.footer .row .col-md-4 img {
+    width: 55%;
+}
+
+.footer .row .col-md-6 {
+    margin-top: 37px;
+}
+
+.footer .row .col-md-6 img {
+    width: 200px;
+}
+
+.footer .row .col-md-6 p {
+    font-family: 'Cairo', sans-serif;
+    color: #fff;
+    margin-top:30px;
+    font-size: 18px;
+}
+
+.footer .row .col-md-6 i {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+@media(max-width: 450px) { 
+    .footer .row .col-md-4 {
+        text-align: center;
+    }
+    
+    .footer .row .col-md-6 {
+        margin-top: 37px;
+        text-align: center;
+    }
+}
+
+
