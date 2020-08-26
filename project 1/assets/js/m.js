@@ -14,12 +14,12 @@ if ($num % 2 == 0) {
 
 $('.my-card').click(function() {
   $slide = $('.active').width();
-  console.log($('.active').position().left);
+  console.log($('.active').position().right);
   
   if ($(this).hasClass('next')) {
-    $('.card-carousel').stop(false, true).animate({left: '-=' + $slide});
+    $('.card-carousel').stop(false, true).animate({right: '-=' + $slide});
   } else if ($(this).hasClass('prev')) {
-    $('.card-carousel').stop(false, true).animate({left: '+=' + $slide});
+    $('.card-carousel').stop(false, true).animate({right: '+=' + $slide});
   }
   
   $(this).removeClass('prev next');
@@ -33,7 +33,7 @@ $('.my-card').click(function() {
 
 // Keyboard nav
 $('html body').keydown(function(e) {
-  if (e.keyCode == 37) { // left
+  if (e.keyCode == 37) { // right
     $('.active').prev().trigger('click');
   }
   else if (e.keyCode == 39) { // right

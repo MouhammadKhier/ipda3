@@ -1,0 +1,519 @@
+.social {
+    background-color:rgb(45, 62, 80);
+    overflow: hidden;
+}
+
+.social .container .row div {
+    display: inline-block;
+    text-align: center;
+}
+
+.social .container .row div i {
+    color: #fff;
+    padding: 0 5px;
+}
+
+.social .container .row div h5 {
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.social .container .row a:hover {
+    text-decoration: none;
+}
+
+.social .container .row .lan .arabic{
+    color: #ed1c1f;
+    border-left: #5b6f88 solid 1px;
+    font-family: 'Cairo', sans-serif;
+    padding-left:5px;
+}
+
+.social .container .row .lan .english{
+    color: #5f758d;
+}
+
+.social .container .row .contact {
+    margin-left: 0px;
+}
+
+.social .container .row .contact .email {
+    border-left: #5b6f88 solid 1px;
+    padding-left:5px;
+}
+
+
+/**********************************************************/
+
+.nav .container .navbar img {
+    width: 180px;
+    margin-left: 20px;
+}
+
+.nav .container .navbar ul li {
+    border-left: #ebebeb solid 1px;
+    padding: 0px 10px;
+}
+
+.nav .container .navbar ul li a {
+    color: #000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+}
+
+.nav .container .navbar ul .active a {
+    color: red;
+    border-bottom: red solid 2px;
+    font-weight: bold;
+}
+
+.nav .container .navbar .form-inline a {
+    color: #293e51;
+    text-decoration: underline #d4d5d7;
+    margin-left: 30px;
+}
+
+
+.nav .container .navbar .form-inline button {
+    background-color: #2d3e50;
+    color: #fff;
+    border: none;
+    padding: 10px 35px;
+}
+
+
+/****************************************************************/
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.carousel-indicators .active {
+    opacity: .5;
+    border-color: #ed1c1f;
+    border: 1px red solid;
+}
+
+.owl .carousel-inner {
+    background-image: url(../imgs/BG.jpg);
+    padding-bottom: 130px;
+    padding-top: 145px;
+    background-repeat: no-repeat;
+}
+
+.owl .carousel-inner .container .carousel-item {
+    width: 35%;
+}
+
+.owl .carousel-inner .container .carousel-item h3 {
+    font-family: 'Cairo', sans-serif;
+    color: #a50e13;
+    font-weight: bold;
+}
+
+.owl .carousel-inner .container .carousel-item p {
+    color: #000;
+    font-family: 'Cairo', sans-serif;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.owl .carousel-inner .container .carousel-item button {
+    color: #fff;
+    background-color: #2d3e50;
+    border: none;
+    padding: 7px 50px;
+    font-family: 'Cairo', sans-serif;
+}
+
+/**************************************************************/
+
+.about {
+    background-image: url(../imgs/about.png);
+    padding: 70px 0;
+    background-repeat: no-repeat;
+}
+
+.about .container p {
+    font-family: 'Cairo', sans-serif;
+    text-align:center;
+    line-height: 35px;
+}
+
+.about .container p span {
+    color: #a5161c;
+}
+
+/***************************************************************/
+
+.carousel {
+    position: relative;
+}
+
+.carousel .line {
+    border-bottom: solid #ececec 1px;
+    margin-bottom: 20px;
+}
+
+.carousel .line h2 {
+    font-family: 'Cairo', sans-serif;
+    color: #a70e11;
+    border-bottom: solid #a70e11 1px;
+    width:fit-content;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.carousel .container .posts-carousel .card {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    padding: 3px;
+    padding-bottom: 10px;
+}
+
+.carousel .container .posts-carousel .card i {
+    color: #fff;
+    background-color: #2d3e50;
+    padding: 10px;
+    width: 37px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.carousel .container .posts-carousel .card h4 {
+    font-family: 'Cairo', sans-serif;
+    color: #a90c13;
+}
+
+.carousel .container .posts-carousel .card p {
+    font-family: 'Cairo', sans-serif;
+}
+
+.carousel .container .posts-carousel .card button {
+    width: 140px;
+    border: none;
+    background-color: #2d3e50;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+.carousel .container .posts-carousel .owl-nav {
+    position: absolute;
+    top: -88px;
+    left: 0;
+}
+
+.carousel .container .posts-carousel .owl-nav .owl-prev {
+    color: #b0b0b0;
+    font-size: 60px;
+}
+
+.carousel .container .posts-carousel .owl-nav .owl-next {
+    color: #b0b0b0;
+    font-size: 60px;
+    margin-right:30px;
+}
+
+
+/***************************************************/
+
+.orders .line {
+    border-bottom: solid #ececec 1px;
+    margin-bottom: 20px;
+}
+
+.orders .line h2 {
+    font-family: 'Cairo', sans-serif;
+    color: #a70e11;
+    border-bottom: solid #a70e11 1px;
+    width:fit-content;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    
+}
+
+.orders .my-from {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.orders .my-from .container .row .col-md-4 .input-group {
+    margin-top: 7px;
+}
+
+.orders .my-from .container .row .col-md-4 .input-group .custom-select {
+    border: none;
+    border-radius: 20px;
+}
+
+.orders .my-from .container .row .col-md-1 button {
+    border: none;
+    background-color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.orders .my-from .container .row2 {
+    background-color: #FFF;
+    border-radius: 0 50px 50px 0;
+    margin: 10px 0;
+}
+
+.orders .my-from .container .row2 .col-md-9 h1 {
+    display: inline-block;
+    font-size: 70px;
+    font-weight: 600;
+    margin:0px;
+    vertical-align: top;
+    margin-left:10px;
+    width: 134px;
+}
+
+.orders .my-from .container .row2 .col-md-9 table {
+    display: inline-block;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+
+.orders .my-from .container .row2 .col-md-9 table tr td {
+    padding-left: 20px;
+    line-height: 35px;
+}
+
+.orders .my-from .container .row2 .col-md-3 {
+    text-align: center;
+}
+
+.orders .my-from .container .row2 .col-md-3 button {
+    border:none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+    padding: 10px 50px;
+    margin: 30px auto 0;
+}
+
+.orders .my-from .container .row2 .col-md-3 button:hover {
+    background-color: #2d3e50;
+    color: #fff;
+}
+
+.orders .my-from .container .row3 .col-12 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.orders .my-from .container .row3 .col-12 button {
+    font-family: 'Cairo', sans-serif;
+    border: none;
+    background-color: #2d3e50;
+    padding: 10px 52px;
+    color:#fff;
+}
+
+/**************************************************************************/
+
+.contact-us {
+    background-image: url(../imgs/call.jpg);
+    padding: 45px 0;
+}
+
+.contact-us .container .row .col-md-6 {
+    text-align: center;
+}
+
+.contact-us .container .row .col-md-6 h1 {
+    font-family: 'Cairo', sans-serif;
+    color: #9e2220;
+    border-bottom: solid 1px #9e2220;
+    width: fit-content;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom:40px;
+}
+
+.contact-us .container .row .col-md-6 p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.contact-us .container .row .col-md-6 div {
+    margin: 40px auto 0;
+    width: fit-content;
+}
+
+.contact-us .container .row .col-md-6 div button {
+    border:none;
+    background-color: #3ab54a;
+    padding: 16px 32px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+    z-index: -1;
+    margin-left: -25px;
+}
+
+.contact-us .container .row .col-md-6 div img {
+    width: 65px;
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 1px;
+}
+
+/********************************************************************/
+
+.app {
+    background-image: url(../imgs/BG-phone.png);
+    padding: 50px 0 30px;
+}
+
+.app img {
+    width: 100%;
+}
+
+.app .container .row .my-col {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.app .container .row .col-md-6 h3 {
+    font-family: 'Cairo', sans-serif;
+    color: #494345;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.app .container .row .col-md-6 p {
+    color: #4c4849;
+    font-family: 'Cairo', sans-serif;
+    font-size: 21px;
+    line-height: 48px;
+}
+
+.app .container .row .col-md-6 h4 {
+    margin: 0 auto;
+    color: #494345;
+    font-size: 23px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+/*********************************************************************/
+
+footer {
+    background-color: #1a1f25;
+    color:#fff;
+    font-family: 'Cairo', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+footer .row .col-md-3 h4 {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .row .col-md-3 p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+footer .row .col-md-2 h5 {
+    font-size: 14px;
+    color: #e51b27;
+}
+
+footer .row .col-md-2 ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer .row .col-md-2 ul li {
+    font-size: 14px;
+    list-style-type: none;
+    margin: 25px 0px;
+}
+
+footer .row .offset-md-3 h5 {
+    font-size: 14px;
+    color: #e51b27;
+    margin-bottom: 60px;
+}
+
+footer .row .offset-md-3 img {
+    margin-bottom: 20px;
+}
+
+/*********************************************************************/
+
+.foot {
+    background-color: #14171c;
+}
+
+.foot .container .row .col-md-4 div {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.foot .container .row .col-md-4 div a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.foot .container .row .col-md-4 p {
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.foot .container .row .col-md-4 p span {
+    color: #e61e20;
+}
+
+@media (max-width: 450px) {
+    .owl .carousel-inner {
+        background-image: url(../imgs/BG1.jpg);
+    }
+
+    .owl .carousel-inner .container .carousel-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .owl .carousel-inner .container .carousel-item .con {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media(max-width: 1000px) {
+    .about {
+        background-image: none;
+    }
+
+    .contact-us {
+        background-image: url(../imgs/BG1.jpg);
+    }
+}
